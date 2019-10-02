@@ -1,0 +1,94 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 17, 2016, 3:41:49 PM
+    Author     : gdfitzgibbon1145
+*/
+
+#topnavbar {
+   width:950px;
+  margin:0 auto;
+}
+
+#header{
+ text-align:center;
+}
+
+body{
+    background-image: url(img/bg2.jpg);
+    background-size:cover;
+}
+
+#content{
+    background-color: white;
+    box-shadow: 2px 2px 1px rgba(50, 50, 50, 0.75);
+}
+#header_logo {
+    display: inline-block;
+    width: 950px
+}
+#footer {
+   text-align:center;
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+}
+#login{
+    display: inline-block;
+    width:100px;
+
+}
+
+#sidebar {
+float: right;
+
+}
+
+#content{
+  width:920px;/*change the value to suite ur need*/
+  margin:0 auto;/*this will center ur content*/   
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: #111;
+}
+
+#specials_table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    
+}
+
+#beach{
+    width: 100%;
+    height: auto;
+}
+
+
